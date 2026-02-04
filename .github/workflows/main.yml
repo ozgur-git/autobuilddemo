@@ -19,7 +19,7 @@ jobs:
           password: ${{ secrets.DOCKER_PASSWD }}
 
       - name: Build image
-        run: docker build -t ozgurgit/autobuilddemo:latest .
+        run: docker build -t ozgurgit/autobuilddemo:latest -f Containerfile .
 
       - name: Push image
         run: docker push ozgurgit/autobuilddemo:latest
