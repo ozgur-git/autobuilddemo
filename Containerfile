@@ -1,2 +1,2 @@
 from busybox:latest
-cmd ["echo", "Hello, bu ilk Dockerfile örneğidir!"]
+cmd ["echo", "Hello, bu updeyt Dockerfile örneğidir!"]
